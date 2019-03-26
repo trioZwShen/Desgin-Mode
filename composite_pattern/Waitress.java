@@ -23,8 +23,8 @@ public class Waitress
         // 0
         w.addComponent(new MenuItem("招牌菜", 1000));
 
-        // 1 水果类的实现与别的菜单不同
-        MenuComponent fruit = new FruitMenu(10);
+        // 1
+        Menu fruit = new Menu("水果类");
         fruit.addComponent(new MenuItem("哈密瓜", 1));
         fruit.addComponent(new MenuItem("西瓜", 2));
         w.addComponent(fruit);
