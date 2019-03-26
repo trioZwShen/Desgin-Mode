@@ -26,7 +26,7 @@ public class FruitMenu implements Menu
 
     @Override
     public Iterator<MenuItem> createIterator() {
-        return new FruitMenuIterator(menu);
+        return new FruitMenuIterator(menu, pos);
     }
 
     @Override

@@ -7,10 +7,12 @@ import java.util.Iterator;
 public class FruitMenuIterator implements Iterator<MenuItem> 
 {
     private int pos;
+    private int len;
     private MenuItem[] menu;
 
-    public FruitMenuIterator(MenuItem[] menu) {
+    public FruitMenuIterator(MenuItem[] menu, int len) {
         this.menu = menu;
+        this.len = len;
         pos = 0;
     }
 
@@ -21,7 +23,7 @@ public class FruitMenuIterator implements Iterator<MenuItem>
 
     @Override
     public boolean hasNext() {
-        return pos < menu.length;
+        return pos < len;
     }
 
     public void remove() throws UnsupportedOperationException
