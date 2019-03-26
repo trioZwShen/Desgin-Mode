@@ -1,3 +1,6 @@
+/**
+ * 个体
+ */
 public class MenuItem extends MenuComponent
 {
     private String name;

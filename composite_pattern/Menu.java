@@ -1,6 +1,9 @@
 import java.util.Iterator;
 import java.util.ArrayList;
 
+/**
+ * 定义"集合"
+ */
 public class Menu extends MenuComponent
 {
     private ArrayList<MenuComponent> menu;
