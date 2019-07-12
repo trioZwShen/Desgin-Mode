@@ -1,7 +1,6 @@
 
 /**
  * 对象适配器模式, 通过组合实现
- */
 public class ChickenAdapter implements Duck
 {
     private Chicken chk;
@@ -21,6 +20,7 @@ public class ChickenAdapter implements Duck
         chk.fly();
     }
 }
+ */
 
 /**
  * 类适配器模式, 通过继承实现
