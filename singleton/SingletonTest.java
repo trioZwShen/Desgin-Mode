@@ -14,5 +14,9 @@ public class SingletonTest {
         Singleton3 s32 = Singleton3.INSTANCE;
         System.out.println(s31);
         System.out.println(s32);
+
+        Singleton4 s41 = Singleton4.getInstance();
+        Singleton4 s42 = Singleton4.getInstance();
+        System.out.println(s41==s42);
     }
 }
