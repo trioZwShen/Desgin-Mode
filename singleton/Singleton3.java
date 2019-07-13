@@ -10,12 +10,6 @@ public class Singleton3 {
         INSTANCE = new Singleton3();
     }
 
-    private int param;
     private Singleton3() {
-        param = new Random().nextInt();
-    }
-
-    public String toString() {
-        return Integer.toString(param);
     }
 }
